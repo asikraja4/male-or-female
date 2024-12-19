@@ -13,11 +13,11 @@ namespace male_or_female
             Console.Write("Enter your gender (Male/Female): ");
             string gender = Console.ReadLine();
 
-            if (gender.Equals("Male", StringComparison.OrdinalIgnoreCase))
+            if (gender.Equals("Male"))
             {
                 Console.WriteLine("User is Male");
             }
-            else if (gender.Equals("Female", StringComparison.OrdinalIgnoreCase))
+            else if (gender.Equals("Female"))
             {
                 Console.WriteLine("User is Female");
             }
